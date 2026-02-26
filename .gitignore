@@ -1,0 +1,25 @@
+# Build artifacts
+build/
+
+# Decompiled / extracted code (copyrighted)
+_gt_*/
+_ic2_*/
+_oe_*/
+
+# Decompiler tool
+lib/cfr-*.jar
+
+# Debug notes
+*.txt
+
+# IDE files
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+*.class
+
+# OS files
+Thumbs.db
+.DS_Store
