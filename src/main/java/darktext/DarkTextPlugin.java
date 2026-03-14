@@ -1,7 +1,8 @@
 package darktext;
 
-import cpw.mods.fml.relauncher.IFMLLoadingPlugin;
 import java.util.Map;
+
+import cpw.mods.fml.relauncher.IFMLLoadingPlugin;
 
 /**
  * DarkTextFix - A coremod that replaces the hardcoded gray text color (0x404040)
@@ -28,8 +29,7 @@ public class DarkTextPlugin implements IFMLLoadingPlugin {
     }
 
     @Override
-    public void injectData(Map<String, Object> data) {
-    }
+    public void injectData(Map<String, Object> data) {}
 
     @Override
     public String getAccessTransformerClass() {
